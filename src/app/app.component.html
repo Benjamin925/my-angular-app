@@ -1,11 +1,4 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
 
 <style>
   :host {
@@ -186,6 +179,7 @@
         fill="none"
         class="angular-logo"
       >
+  
         <g clip-path="url(#a)">
           <path
             fill="url(#b)"
@@ -197,35 +191,37 @@
           />
         </g>
         <defs>
-          <radialGradient
+       
+            <radialGradient
             id="c"
             cx="0"
             cy="0"
             r="1"
             gradientTransform="rotate(118.122 171.182 60.81) scale(205.794)"
             gradientUnits="userSpaceOnUse"
-          >
+            >
             <stop stop-color="#FF41F8" />
             <stop offset=".707" stop-color="#FF41F8" stop-opacity=".5" />
             <stop offset="1" stop-color="#FF41F8" stop-opacity="0" />
           </radialGradient>
           <linearGradient
-            id="b"
-            x1="0"
-            x2="982"
-            y1="192"
-            y2="192"
-            gradientUnits="userSpaceOnUse"
+          id="b"
+          x1="0"
+          x2="982"
+          y1="192"
+          y2="192"
+          gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#F0060B" />
-            <stop offset="0" stop-color="#F0070C" />
-            <stop offset=".526" stop-color="#CC26D5" />
-            <stop offset="1" stop-color="#7702FF" />
-          </linearGradient>
-          <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
-        </defs>
-      </svg>
-      <h1>Hello, {{ title }}</h1>
+          <stop stop-color="#F0060B" />
+          <stop offset="0" stop-color="#F0070C" />
+          <stop offset=".526" stop-color="#CC26D5" />
+          <stop offset="1" stop-color="#7702FF" />
+        </linearGradient>
+        <clipPath id="a"><path fill="#fff" d="M0 0h982v239H0z" /></clipPath>
+      </defs>
+    </svg>
+      <h1>Hello Benjamin,</h1>
+      <h1>this is projekt {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
@@ -279,25 +275,7 @@
             />
           </svg>
         </a>
-        <a
-          href="https://twitter.com/angular"
-          aria-label="Twitter"
-          target="_blank"
-          rel="noopener"
-        >
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            alt="Twitter"
-          >
-            <path
-              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
-            />
-          </svg>
-        </a>
+
         <a
           href="https://www.youtube.com/channel/UCbn1OgGei-DV7aSRo_HaAiw"
           aria-label="Youtube"
@@ -324,13 +302,6 @@
   </div>
 </main>
 
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
 <router-outlet />
